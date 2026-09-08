@@ -1,4 +1,19 @@
+@font-face {
+    font-family: 'ComicZ';
+    src: url('comicz.ttf') format('truetype');
+}
+
 body {
     background-color: #60BFF5;
-    font-family: url(comicz.ttf);
+    font-family: 'ComicZ', sans-serif;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
 }
