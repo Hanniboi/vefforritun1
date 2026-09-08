@@ -4,16 +4,50 @@
 }
 
 body {
-    background-color: #60BFF5;
+    background-color: #2E63A4;
     font-family: 'ComicZ', sans-serif;
     color: white;
+    margin: 0;
 }
 
 header {
     text-align: center;
     padding: 20px;
+    
 }
 
 .cards {
     display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 90%;
+    max-width: 1500;
+    line-height: 1.5;
+    margin: 20px auto;
+}
+
+.card {
+    flex: 1;
+    box-sizing: border-box;
+    border-top: 15px solid #AF6528;
+    border-right: 15px solid #AF6528;
+    border-bottom: 15px solid #ffce00;
+    border-left: 15px solid #ffce00;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #60BFF5;
+}
+
+.card h2 {
+    margin: 0;
+}
+
+.card img {
+    display: block;
+    max-width: 100%;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
 }
