@@ -1,0 +1,32 @@
+body {
+    background-color: #0B2B26;
+    font-family: 'Courier New', Courier, monospace;
+    color: #DAF1DE;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 1500px;
+    line-height: 1.5;
+    margin: 20px auto;
+}
+
+.card {
+    border: 15px solid #163832;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 50px;
+    gap: 10px;
+    background-color: #235347;
+}
+
+.card h2 {
+    margin-top: 0;
+}
