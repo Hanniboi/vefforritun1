@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h3, h2, h1 {
+    text-align: center;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    line-height: 1.5;
+}
+
+.cards {
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 10px;
+    background-color: black;
+}
+
+.card {
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 90%;
+}
+
+.ace {
+    border: 5px solid white;
+    margin: 20px 0px;
+    padding: 50px;
+}
+

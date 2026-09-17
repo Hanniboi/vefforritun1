@@ -1,53 +1,48 @@
-@font-face {
-    font-family: 'ComicZ';
-    src: url('comicz.ttf') format('truetype');
+* {
+    box-sizing: border-box;
 }
 
 body {
-    background-color: #2E63A4;
-    font-family: 'ComicZ', sans-serif;
-    color: white;
-    margin: 0;
-}
-
-header {
-    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(25, 62, 40);
+    margin: 100px;
     padding: 20px;
-    
-}
 
-.cards {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    width: 90%;
-    max-width: 1500;
-    line-height: 1.5;
-    margin: 20px auto;
 }
 
 .card {
-    flex: 1;
-    box-sizing: border-box;
-    border-top: 15px solid #AF6528;
-    border-right: 15px solid #AF6528;
-    border-bottom: 15px solid #ffce00;
-    border-left: 15px solid #ffce00;
+    width: 60%;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 24px 96px;
+    background-color: rgb(177, 232, 104);
+    border: 5px solid orange;
     border-radius: 15px;
-    padding: 20px;
-    margin: 20px;
-    background-color: #60BFF5;
 }
 
-.card h2 {
-    margin: 0;
+.idCard {
+    display: inline;
+    color: red;
+    font-weight: bold;
 }
 
-.card img {
+.paragraph {
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     display: block;
-    max-width: 100%;
-    max-height: 250px;
-    width: auto;
-    height: auto;
-    object-fit: contain;
+    margin-top: 16px;
+    padding: 10px 18px;
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.hidden {
+    display: none;
 }
