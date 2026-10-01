@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #c1c1c2;
+    color: #222;
+}
+
+#card {
+    max-width: 700px;
+    height: 400px;
+    padding: 24px;
+    margin: 60px auto;
+    background: #f1e9d2;
+    border-left: 10px solid #f8f3e3;
+    border-top: 10px solid #f8f3e3;
+    border-radius: 12px;
+    box-shadow: 10px 10px 15px #222;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+#status {
+    margin-top: 24px;
+    padding-left: 5px;
+    border-left: 3px solid black;
+}
+
+.status-done {
+    color: darkseagreen;
+    text-decoration: line-through solid black 2px;
+}
